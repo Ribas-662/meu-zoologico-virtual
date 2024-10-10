@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(46, 95, 87);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 300px;
+}
+
+header img {
+  width: 260px;
+  height: 120px;
+}
+
+
+.comprar button {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comprar button:hover {
+  transform: scale(1.05);
+  background-color: rgb(70, 87, 54);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.comeco {
+  height: 250px;
+  gap: 100px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.comeco button {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 65px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-weight: bold; 
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.comeco button:hover {
+  transform: scale(1.05);
+  background-color: rgb(70, 87, 54);
+  cursor: pointer;
+  transition: .2s;
+}
+
+strong {
+  color: azure;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgba(32, 22, 87, 0.616);
+  margin-left: 70px;
+}
+
+h2 {
+  color: rgb(153, 153, 153);
+  font-size: 35px;
+  margin-left: 60px;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.fotos {
+  margin-left: 50px;
+}
+
+main {
+  background-color: rgb(46, 95, 87);
+  padding-top: 16px;
+}
+
+.apresentacao {
+  background-color: rgb(70, 87, 54);
+  margin: 20px 32px;
+  padding: 5px 15px;
+}
+
+.macaco {
+  margin: 32px 32px;
+  background-color: rgb(70, 87, 54);
+  padding: 5px 15px;
+}
+
+.jaguatirica {
+  margin: 32px 32px;
+  background-color: rgb(70, 87, 54);
+  padding: 5px 15px;
+}
+
+.furao {
+  margin: 32px 32px;
+  background-color: rgb(70, 87, 54);
+  padding: 5px 15px;
+}
+
+
+footer {
+  background-color: aqua;
+  width: 100%;
+  padding: 16px 32px;
+}
+
+.divfooter {
+  display: flex;
+}
+
+
